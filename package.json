@@ -1,0 +1,20 @@
+{
+  "name": "simple-peer-sample",
+  "version": "1.0.0",
+  "description": "A repository for use [simple-peer](https://github.com/feross/simple-peer) to create simple webRTC",
+  "main": "index.js",
+  "scripts": {
+    "build-bundle": "browserify ./src/include.js -o ./web/js/bundle.js",
+    "run-client": "node src/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "simple-peer": "^9.11.0",
+    "wrtc": "^0.4.7"
+  }
+}
